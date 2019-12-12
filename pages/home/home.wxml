@@ -1,0 +1,28 @@
+<!--pages/home/home.wxml-->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class="swiper">
+  <block wx:for="{{background}}" wx:key="*this">
+    <swiper-item>
+      <image src="{{item}}" class="image"></image>
+    </swiper-item>
+  </block>
+</swiper>
+
+<!-- 标题栏 -->
+<block wx:for="{{enums}}" wx:key="*this" wx:for-index="idx" wx:for-item="enum">
+  <view class="weui-flex">
+    <block wx:for="{{enum}}" wx:for-item="item">
+      <view class="weui-flex__item">
+        <view class="placeholder">
+          <image src="{{item.icon}}" class="emun_image"></image>
+          <view class="font12">{{item.title}}</view>
+        </view>
+      </view>
+    </block>
+  </view>
+</block>
+
+<view class="weui-flex">
+  <view class="weui-flex__item">
+    <image src="{{logo1}}" class="logo1"></image>
+  </view>
+</view>

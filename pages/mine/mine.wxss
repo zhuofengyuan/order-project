@@ -1,0 +1,126 @@
+/* pages/mine/mine.wxss */
+.image_bg{
+  width: 100%;
+  height: 350rpx;
+}
+
+.image_icon{
+  height: 180rpx;
+  width: 180rpx;
+  display: block;
+  margin: 0 auto;
+  border-radius:50%; 
+  /* border: 3px solid #eee;  */
+  overflow: hidden;
+  margin-top: 25rpx;
+}
+
+.image_title{
+  height: 40rpx;
+  width: 40rpx;
+  display: block;
+  padding-top: 0.6em;
+  margin: 0 auto;
+}
+
+.nickname{
+  margin: 10rpx auto;
+  text-align: center;
+  color: rgb(53, 50, 50);
+  font-size: 30rpx;
+  font-weight: 800;
+}
+
+.placeholder_title{
+    margin: 1rpx;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.8);
+    height: 115rpx;
+    color: rgb(53, 50, 50);
+    margin-top: 20rpx;
+}
+
+.placeholder{
+    margin: 1rpx;
+    text-align: center;
+    background-color: white;
+    height: 115rpx;
+    color: rgb(53, 50, 50);
+    margin-top: 20rpx;
+}
+
+.maringtop0{
+  margin-top:0;
+}
+
+.order-line{
+  height: 80rpx;
+}
+
+.my-order{
+  float:left;
+  height: 100%;
+  line-height: 80rpx;
+  font-weight: 800;
+}
+
+.all-order{
+  float:right;
+  height: 96%;
+  line-height: 75rpx;
+  margin-right: 30rpx;
+  color: #999999;
+}
+
+.title2-icon{
+  width: 85rpx;
+  height: 55rpx;
+  padding-top: 25rpx;
+}
+
+.title2-content{
+  height: 130rpx;
+  color: #999999;
+}
+
+.title3-image{
+  width:40rpx;
+  height:40rpx;
+  float:left;
+  margin-left:20rpx;
+  margin-top: 25rpx;
+}
+
+.title3-content{
+  height: 80rpx;
+  margin-top: 0;
+  line-height: 90rpx;
+}
+
+.title3-name{
+  height: 100%;
+  float: left;
+  margin-left:10rpx;
+}
+
+.title3-tips{
+  float: right;
+}
+
+.weui-demo-dialog{
+  visibility:hidden;
+  opacity:0;
+  transition:all .3s;
+}
+.weui-half-screen-dialog{
+  transition:all .3s;
+  transform:translateY(100%);
+}
+.weui-demo-dialog_show{
+  visibility:visible;
+  opacity:1;
+}
+.weui-demo-dialog_show .weui-half-screen-dialog{
+    transform:translateY(0);
+}
+

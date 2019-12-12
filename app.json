@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/pay/pay",
+    "pages/order/order",
+    "pages/buy/buy",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarTitleText": "^_^半糖^_^",
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#FF5B73",
+    "enablePullDownRefresh": true
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor": "#FF5B73",
+    "color": "#999999",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "image/icon_menu_home@2x.png",
+        "selectedIconPath": "image/icon_menu_home_s@2x.png"
+      },
+      {
+        "pagePath": "pages/buy/buy",
+        "text": "下单",
+        "iconPath": "image/icon_menu_shopping@2x.png",
+        "selectedIconPath": "image/icon_menu_shopping_s@2x.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "个人",
+        "iconPath": "image/icon_menu_my@2x.png",
+        "selectedIconPath": "image/icon_menu_my_s@2x.png"
+      }
+    ]
+  }
+}
